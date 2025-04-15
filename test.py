@@ -7,7 +7,7 @@ from torchmetrics.functional import peak_signal_noise_ratio, structural_similari
 from torchvision.utils import save_image
 from tqdm import tqdm
 
-from config import Config
+from config import Config 
 from data import get_testing_data
 from models import *
 from utils import *
